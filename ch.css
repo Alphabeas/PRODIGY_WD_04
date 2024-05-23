@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDEbn1Kl-F6sxibdrpIyxL8Tyi25gT_3n5SDvE-r27Cg&s'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #3a054ab5; 
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #ffeb3b;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px; 
+    height: 150px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.02);
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    color: #ffeb3b;
+}
+
+/* Make each section fit to page */
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.2em;
+}
+
+/* Contact Styles */
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: #1a097b;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s; 
+}
+
+#contact ul li a:hover {
+    color: #ffffff; 
+}
